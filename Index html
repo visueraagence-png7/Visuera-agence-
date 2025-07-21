@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visuéra - Agence de Communication Visuelle</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Visuéra Agence</h1>
+    <p>NOUS SOMMES UNE AGENCE DE COMMUNICATION VISUELLE AU CONGO BRAZZAVILLE</p>
+    <p><strong></strong>Numéro : <a href="tel:+242068846955">+242068846955</a></strong></p>
+  </header>
+
+  <nav>
+    <a href="#apropos">À propos</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a
+    >
+    <a href="#reclamation">réclamation </a>
+  </nav>
+
+  <section id="apropos">
+    <h2>Qui sommes-nous ?</h2>
+    <p>
+      Visuéra accompagne les entreprises et les institutions dans leurs ambitions stratégiques grâce à une créativité sans limite. 
+      Nous offrons des solutions visuelles et multimédias modernes pour faire rayonner votre image de marque.
+    </p>
+    <img src="/Image/Image index /955d6948-fda2-4da9-9ab0-cdd6836ac2e5.jpeg" alt="Équipe créative">
+  </section>
+
+  <section id="services">
+    <h2>Nos Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <img src="/Image/Image index /c50b9003-a820-44bb-931b-7555a08badaa.jpeg" alt="Communication">
+        <h3>Communication & Marketing</h3>
+        <p>Stratégies et contenus qui valorisent votre marque et captivent votre audience.</p>
+      </div>
+      <div class="service-card">
+        <img src="/Image/Image index /7848676f-3d30-4ce3-84bb-54a88cea4b4a.jpeg" alt="Graphisme">
+        <h3>Graphisme & Audiovisuel</h3>
+        <p>Visuels modernes, vidéos dynamiques et identité graphique sur mesure.</p>
+      </div>
+      <div class="service-card">
+        <img src="/Image/Image index /a458a09a-9c06-46ad-9617-67c07bbe773a.jpeg" alt="Gestion de projet">
+        <h3>Gestion de Projet & Coaching</h3>
+        <p>Accompagnement personnalisé pour atteindre vos objectifs efficacement.</p>
+      </div>
+      <div class ="service-card">
+        <img src="/Image/Image index /Why_I_Was_Getting_Ghosted_by_Recruiters__and_How_I_Fixed_It_-removebg-preview.png"alt="réclamation">
+        <h4>réclamation</h4>
+        <p>n'hésitez pas à contacter le service client pour vos réclamations nous sommes disponibles 24h24.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contactez-nous</h2>
+    <form action="https://formspree.io/f/mleqzjjj" method="POST">
+      <input type="text" name="nom" placeholder="Votre nom" required>
+      <input type="email" name="email" placeholder="Votre email" required>
+      <textarea name="message" placeholder="Votre message..." rows="5"></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Visuéra. La créativité de se démarquer.
+  </footer>
+</body>
+</html>
